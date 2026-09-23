@@ -1,0 +1,99 @@
+{
+  "project_name": "MEDICA Private Medical Center Landing Page",
+  "archetype": "ORGANIC & SWISS HYBRID PREMIUM MEDICAL",
+  "theme": "Light Theme (Premium Medical Minimalist)",
+  "data_testid_rules": "All interactive elements, inputs, buttons, links, cards, modals, and navigation items MUST include kebab-case data-testid attributes (e.g. data-testid=\"nav-link-services\", data-testid=\"hero-appointment-button\", data-testid=\"whatsapp-floating-button\", data-testid=\"appointment-modal-submit-button\").",
+  "colors": {
+    "background": "#F8FAFC",
+    "background_alt": "#F1F5F9",
+    "surface": "#FFFFFF",
+    "primary": "#0F2C59",
+    "primary_hover": "#0B2144",
+    "primary_foreground": "#FFFFFF",
+    "accent_teal": "#0D9488",
+    "accent_teal_light": "#CCFBF1",
+    "accent_teal_hover": "#0F766E",
+    "text_dark": "#0F172A",
+    "text_muted": "#475569",
+    "text_light": "#94A3B8",
+    "border_subtle": "#E2E8F0",
+    "border_focus": "#0D9488"
+  },
+  "typography": {
+    "fonts_to_import": "Google Fonts: Cormorant Garamond (Serif Display for Editorial Headings) and Plus Jakarta Sans or Manrope (Clean Sans for UI & Body text)",
+    "headline_font": "'Cormorant Garamond', Georgia, serif",
+    "body_font": "'Plus Jakarta Sans', system-ui, -apple-system, sans-serif",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight text-[#0F2C59]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-light tracking-tight text-[#0F2C59]",
+      "h3": "text-xl sm:text-2xl font-medium text-[#0F2C59]",
+      "h4": "text-lg sm:text-xl font-medium text-[#0F2C59]",
+      "body": "text-base text-[#475569] leading-relaxed",
+      "caption": "text-xs sm:text-sm font-medium uppercase tracking-widest text-[#0D9488]"
+    }
+  },
+  "layout_and_spacing": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 sm:py-24 lg:py-32",
+    "bento_grid": "Grid structure with generous gap (gap-6 to gap-8), subtle 1px border cards, 16px to 24px internal card padding (p-6 to p-8), no heavy rounded corners (max rounded-xl/rounded-2xl)."
+  },
+  "motion_and_effects": {
+    "smooth_scroll": "Lenis smooth scroll or Framer Motion scroll animations for anchor navigation.",
+    "hero_reveal": "Masked line-by-line reveal animation on load for the main title.",
+    "hover_states": "Subtle translate-y-1, border color transition to teal accent, shadow elevation.",
+    "floating_whatsapp": "Fixed bottom-right button with pulse aura effect."
+  },
+  "image_urls": {
+    "hero_doctor": "https://images.unsplash.com/photo-1758691461990-03b49d969495?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "about_clinic_interior": "https://images.unsplash.com/photo-1764727291644-5dcb0b1a0375?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "doctors": [
+      {
+        "name": "Д-р Алия Серикова",
+        "specialization": "Главный врач, Терапевт",
+        "experience": "14 лет стажа",
+        "url": "https://images.pexels.com/photos/4173250/pexels-photo-4173250.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "name": "Д-р Арман Нурланов",
+        "specialization": "Кардиолог, д.м.н.",
+        "experience": "18 лет стажа",
+        "url": "https://images.unsplash.com/photo-1645066928295-2506defde470?crop=entropy&cs=srgb&fm=jpg&q=85"
+      },
+      {
+        "name": "Д-р Елена Ким",
+        "specialization": "Невролог, сомнолог",
+        "experience": "11 лет стажа",
+        "url": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?crop=entropy&cs=srgb&fm=jpg&q=85"
+      },
+      {
+        "name": "Д-р Тимур Смайлов",
+        "specialization": "Врач УЗИ и функциональной диагностики",
+        "experience": "9 лет стажа",
+        "url": "https://images.pexels.com/photos/39192408/pexels-photo-39192408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      }
+    ]
+  },
+  "key_features_to_build": {
+    "sticky_header": "Logo MEDICA, Nav links (Главная, Услуги, Врачи, О центре, Отзывы, Контакты), Phone link (+7 747 310 0916), CTA button 'Записаться'.",
+    "hero_section": "Editorial text + 2 CTAs ('Записаться на приём', 'Написать в WhatsApp') + trust counters + framed doctor photo composition.",
+    "trust_banner": "10+ направлений, Опытные специалисты, 7 дней в неделю, Удобная онлайн-запись.",
+    "services_grid": "6 cards: Терапия, Кардиология, Неврология, Педиатрия, УЗИ и диагностика, Лабораторные исследования.",
+    "doctors_grid": "4 cards with DEMO badge, photo, name, specialization, experience, appointment trigger button.",
+    "about_section": "Asymmetrical layout: large photo + headline 'Медицина с вниманием к человеку' + 3 key advantages.",
+    "process_section": "4-step visual flow (01 Заявка, 02 Консультация, 03 Диагностика, 04 Лечение & Забота).",
+    "reviews_section": "3 testimonial cards with mandatory DEMO badge overlay.",
+    "faq_accordion": "5 interactive FAQ accordions.",
+    "cta_banner": "'Не откладывайте заботу о здоровье' with WhatsApp and Appointment modal buttons.",
+    "contacts_section": "Address 'ЖК Alma City 5, Алматы', phone '+7 747 310 0916', working hours, interactive map embed for ЖК Alma City 5.",
+    "footer": "Logo, navigation links, contact info, privacy policy notice.",
+    "appointment_modal": "Modal dialog with inputs: Name, Phone, Department. Submit button triggers WhatsApp deep link: https://wa.me/77473100916?text=...",
+    "floating_whatsapp": "Floating bottom-right button redirecting to WhatsApp chat."
+  },
+  "instructions_to_main_agent": [
+    "Ensure all buttons, inputs, links, and text elements have unique kebab-case data-testid attributes.",
+    "Do not use dark background as full-page default; use clean off-white (#F8FAFC) with rich dark blue (#0F2C59) and teal (#0D9488) accents.",
+    "Always mark Demo reviews and doctor cards with a clear DEMO badge as required in the prompt.",
+    "Ensure the appointment modal form redirects directly to wa.me/77473100916 with preformatted Russian text.",
+    "Include a floating WhatsApp button in bottom-right corner."
+  ]
+}
