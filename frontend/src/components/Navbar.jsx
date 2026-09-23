@@ -7,10 +7,10 @@ import { EASE } from "@/components/Reveal";
 
 const Logo = ({ light = false }) => (
   <button
-    data-testid="logo-medica"
+    data-testid="logo-gaisar"
     onClick={() => scrollToId("home")}
     className="flex items-center gap-2.5"
-    aria-label="MEDICA — на главную"
+    aria-label="GAISAR — на главную"
   >
     <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-navy text-white">
       <Plus size={16} strokeWidth={2.5} />
@@ -20,7 +20,7 @@ const Logo = ({ light = false }) => (
         light ? "text-white" : "text-navy"
       }`}
     >
-      MEDICA
+      GAISAR
     </span>
   </button>
 );

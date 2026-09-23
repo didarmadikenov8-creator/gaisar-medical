@@ -138,7 +138,7 @@ export const Hero = () => {
           >
             <img
               src={HERO_IMG}
-              alt="Врач медицинского центра MEDICA"
+              alt="Врач медицинского центра GAISAR"
               className="h-full w-full object-cover"
               data-testid="hero-main-image"
             />

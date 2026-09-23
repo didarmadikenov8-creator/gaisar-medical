@@ -20,7 +20,7 @@ export const Footer = () => {
                 </svg>
               </span>
               <span className="font-display text-2xl font-semibold tracking-wide text-white">
-                MEDICA
+                GAISAR
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/50">
@@ -127,7 +127,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row">
-          <p>© {year} MEDICA. Демо-шаблон.</p>
+          <p>© {year} GAISAR. Демо-шаблон.</p>
           <p>Не является публичной офертой</p>
         </div>
       </div>
